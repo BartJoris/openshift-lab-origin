@@ -193,7 +193,7 @@ development     true           https://a3ec8aa1e521d4fbd8fb24881828fe82-13e768b6
 local-cluster   true           https://api.cluster-p6mj8.sandbox2651.opentlc.com:6443                                       True     True        80m
 ----
 
-. There are two managed clusters available: `local-cluster` - which is your hub cluster - and `` which is the small development cluster that has already been pre-deployed.
+. There are two managed clusters available: `local-cluster` - which is your hub cluster - and `development` which is the small development cluster that has already been pre-deployed.
 +
 Examine the development managed cluster:
 +
@@ -456,7 +456,7 @@ https://console-openshift-console.apps.cluster-p6mj8.sandbox2651.opentlc.com
 . Notice that in the top left corner you see a drop down menu that reads *local-cluster*. This signifies that you are operating on the local cluster - your hub cluster.
 . Click the *local-cluster* dropdown and select *All Clusters*. This opens the (simplified version of the) Red Hat Advanced Cluster Management for Kubernetes console.
 . If not already there click on *Infrastructure* on the left and then select *Clusters*. You will see that you have two clusters, the *local-cluster* which is also the *Hub* cluster and the *development* cluster that uses *Hypershift* as its infrastructure.
-. Click on the *development* cluster and explore the information available. Note that on the *Nodes* tab you also see the two worker nodes that have been provisioned.
+. Click on the *development* cluster and explore the information available. Note that on the *Nodes* tab you also see the one worker node that has been provisioned.
  
 == Next steps
 
